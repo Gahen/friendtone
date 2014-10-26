@@ -1,0 +1,8 @@
+<div class="jumbotron">
+    <h1>'Allo, 'Allo!</h1>
+    <p class="lead">
+        This is a audio recording test.
+    </p>
+    <p><button type="button" data-ng-click="switchRecord()" class="btn btn-lg btn-success">{{ !$scope.state ? 'Record!' : 'Stop!' }}<span class="glyphicon glyphicon-ok"></span></button></p>
+    <audio autoplay data-ng-src="{{audioSrc}}"></audio>
+</div>
