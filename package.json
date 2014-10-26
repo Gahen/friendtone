@@ -2,7 +2,8 @@
   "name": "friendtone",
   "version": "0.0.0",
   "dependencies": {
-    "recordrtc": "^4.0.7"
+    "recordrtc": "^4.0.7",
+    "sockjs": "^0.3.10"
   },
   "devDependencies": {
     "grunt": "^0.4.1",

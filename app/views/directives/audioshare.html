@@ -1,0 +1,6 @@
+<p><button type="button" data-ng-click="switchRecord()" class="btn btn-lg btn-success">{{ !$scope.state ? 'Record!' : 'Stop!' }}<span class="glyphicon glyphicon-ok"></span></button></p>
+
+<button type="button" class="btn btn-lg" data-ng-click="connect()">Connect!</button>
+
+
+<ul><li data-ng-repeat="offer in offers">{{ offer | json }}</li></ul>

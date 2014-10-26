@@ -17,7 +17,8 @@ angular
         'ngSanitize',
         'ngTouch',
         'ui.bootstrap',
-        'ui.router'
+        'ui.router',
+        'bd.sockjs'
     ])
     .config(function ($stateProvider, $urlRouterProvider, $sceProvider /* dont disable sce, it's stupid*/) {
         $sceProvider.enabled(false);
